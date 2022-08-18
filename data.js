@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-front",
-      "name": "Front",
+      "id": "0-smk-assalaam",
+      "name": "smk assalaam",
       "levels": [
         {
           "tileSize": 256,
@@ -24,116 +24,84 @@ var APP_DATA = {
       ],
       "faceSize": 1944,
       "initialViewParameters": {
-        "yaw": -1.7783513315426642,
-        "pitch": -0.09824870472126968,
+        "yaw": -3.067198280615722,
+        "pitch": -0.09919871893246679,
         "fov": 1.3333127936580627
       },
       "linkHotspots": [
         {
-          "yaw": 2.985138615584802,
-          "pitch": 0.04817742327901087,
-          "rotation": 3.141592653589793,
-          "target": "5-mesjid"
-        },
-        {
-          "yaw": -1.422349120437259,
-          "pitch": 0.05842424230706378,
+          "yaw": -2.8260685010516298,
+          "pitch": 0.07022576239714162,
           "rotation": 0,
-          "target": "9-tbsm"
+          "target": "6-lorong"
         },
         {
-          "yaw": -2.3227944330638266,
-          "pitch": -0.1372702383444988,
-          "rotation": 9.42477796076938,
-          "target": "8-tata-usaha"
-        },
-        {
-          "yaw": -1.8017388213983985,
-          "pitch": 0.173194451271792,
-          "rotation": 5.497787143782138,
-          "target": "10-lapangan"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.5648808778576182,
-          "pitch": -0.5802256294514052,
-          "title": "www.smkassalaambandung.sch.id",
-          "text": ""
-        }
-      ]
-    },
-    {
-      "id": "1-aula",
-      "name": "Aula",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1944,
-      "initialViewParameters": {
-        "yaw": -1.5593458565531861,
-        "pitch": 0.26257801188014795,
-        "fov": 1.3333127936580627
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-kantin",
-      "name": "Kantin",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1944,
-      "initialViewParameters": {
-        "yaw": -1.9861371027831787,
-        "pitch": 0.13896996877245016,
-        "fov": 1.3333127936580627
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.0416037543701346,
-          "pitch": 0.06365968776767517,
+          "yaw": -2.6723655301965223,
+          "pitch": -0.047107838206004615,
           "rotation": 0,
-          "target": "10-lapangan"
+          "target": "1-lapangan-"
+        },
+        {
+          "yaw": 2.249664982299641,
+          "pitch": -0.0019241333736683686,
+          "rotation": 0,
+          "target": "4-mesjid"
+        },
+        {
+          "yaw": -2.970235276151394,
+          "pitch": -0.09694155518993952,
+          "rotation": 0,
+          "target": "3-tbsm"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-kelas",
+      "id": "1-lapangan-",
+      "name": "Lapangan ",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": 2.9896136849270682,
+        "pitch": 0.05857829403526438,
+        "fov": 1.3333127936580627
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.010448796875159871,
+          "pitch": -0.0704121986380759,
+          "rotation": 0,
+          "target": "5-tkro"
+        },
+        {
+          "yaw": 2.8214729719341527,
+          "pitch": -0.07792095946901334,
+          "rotation": 0,
+          "target": "7-kantin"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-kelas",
       "name": "Kelas",
       "levels": [
         {
@@ -156,184 +124,15 @@ var APP_DATA = {
       ],
       "faceSize": 1944,
       "initialViewParameters": {
-        "yaw": 1.3657293864695728,
-        "pitch": 0.14004160633608365,
+        "yaw": -2.8709462347195824,
+        "pitch": 0.24219481450527525,
         "fov": 1.3333127936580627
       },
       "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "4-lorong",
-      "name": "Lorong",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1944,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-mesjid",
-      "name": "Mesjid",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1944,
-      "initialViewParameters": {
-        "yaw": -1.4594144798982498,
-        "pitch": 0.16046434059341408,
-        "fov": 1.3333127936580627
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.9463983911446725,
-          "pitch": 0.0026066093248147126,
-          "rotation": 0,
-          "target": "0-front"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-tkro",
-      "name": "TKRO",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1944,
-      "initialViewParameters": {
-        "yaw": 1.5385268197500626,
-        "pitch": 0.13712407287074413,
-        "fov": 1.3333127936580627
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-tkro2",
-      "name": "TKRO2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1944,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "8-tata-usaha",
-      "name": "Tata Usaha",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1944,
-      "initialViewParameters": {
-        "yaw": -1.1554691408071385,
-        "pitch": 0.0875260039600505,
-        "fov": 1.3333127936580627
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.509798715846113,
-          "pitch": -0.07062330954191864,
-          "rotation": 0,
-          "target": "0-front"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-tbsm",
+      "id": "3-tbsm",
       "name": "TBSM",
       "levels": [
         {
@@ -356,23 +155,35 @@ var APP_DATA = {
       ],
       "faceSize": 1944,
       "initialViewParameters": {
-        "yaw": 1.9241278097031778,
-        "pitch": 0.12228742124980485,
+        "yaw": 0.08328162095568281,
+        "pitch": 0.1342142101873005,
         "fov": 1.3333127936580627
       },
       "linkHotspots": [
         {
-          "yaw": -1.1782813637872582,
-          "pitch": 0.0077494619511071505,
+          "yaw": -0.931905648857045,
+          "pitch": 0.06564700254791234,
           "rotation": 0,
-          "target": "10-lapangan"
+          "target": "1-lapangan-"
+        },
+        {
+          "yaw": -0.371605806255765,
+          "pitch": 0.03380282214792629,
+          "rotation": 0,
+          "target": "7-kantin"
+        },
+        {
+          "yaw": -2.732949924859339,
+          "pitch": -0.020057887031324384,
+          "rotation": 0,
+          "target": "6-lorong"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "10-lapangan",
-      "name": "Lapangan",
+      "id": "4-mesjid",
+      "name": "Mesjid",
       "levels": [
         {
           "tileSize": 256,
@@ -394,30 +205,104 @@ var APP_DATA = {
       ],
       "faceSize": 1944,
       "initialViewParameters": {
-        "yaw": -1.5604191222723784,
-        "pitch": 0.3368202302800647,
+        "yaw": 0.21691494151862045,
+        "pitch": 0.01685042816114546,
         "fov": 1.3333127936580627
       },
-      "linkHotspots": [
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-tkro",
+      "name": "TKRO",
+      "levels": [
         {
-          "yaw": -1.869845053952897,
-          "pitch": -0.08049001708140935,
-          "rotation": 3.141592653589793,
-          "target": "2-kantin"
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
         },
         {
-          "yaw": 2.9434263989299456,
-          "pitch": -0.40891733549698017,
-          "rotation": 0.7853981633974483,
-          "target": "1-aula"
+          "tileSize": 512,
+          "size": 512
         },
         {
-          "yaw": 1.9330230504157289,
-          "pitch": -0.22672080417509477,
-          "rotation": 0,
-          "target": "3-kelas"
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
         }
       ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": 0.3095811251613476,
+        "pitch": 0.23632021069213138,
+        "fov": 1.3333127936580627
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-lorong",
+      "name": "Lorong",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": -1.2813254298588355,
+        "pitch": 0.18569444091081166,
+        "fov": 1.3333127936580627
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-kantin",
+      "name": "Kantin",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1944,
+      "initialViewParameters": {
+        "yaw": 2.0234360075026476,
+        "pitch": -0.01616197749978987,
+        "fov": 1.3333127936580627
+      },
+      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
